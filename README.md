@@ -20,6 +20,9 @@ Everything specific to your home (which school, which speaker, which TVs, which
 network) lives in `~/.config/lunchmenu/`, outside the repo entirely. No API key
 or account is required; the menu API is public.
 
+There's a one-page overview at **<https://ssullivan.github.io/lunchmenu/>**;
+this README is the full documentation.
+
 ---
 
 ## Requirements
