@@ -440,6 +440,19 @@ server-side and rolls over at midnight. An explicit `?date=` is only used when
 the requested day is *not* today. Adding `?date=` unconditionally looks more
 explicit and quietly breaks the rollover.
 
+**Will a toast show over whatever is on screen?** Toasts are drawn in the TV's
+own OSD layer, so they overlay app content — confirmed appearing over playing
+video on a 2021 C1. The webOS API
+(`ssap://system.notifications/createToast`) takes only a message and an
+optional icon: there is **no priority or force-on-top parameter**, so whether a
+toast is drawn is entirely the TV's decision and nothing here can override it.
+The case to watch is LG's **Game Optimizer / Game Mode**, which strips overlays
+to reduce input lag and may suppress notifications on some firmware — untested
+here. Note that `--toast` exits 0 once the TV *accepts* the message; it has no
+way to know whether anything was actually rendered, so a suppressed toast looks
+exactly like a delivered one. If a TV seems to be ignoring toasts, test it
+directly with `lunchmenu-webos --toast --message "test" --room "..."`.
+
 **Upstream is down at 7am.** Fetches retry with backoff, and the last good week
 is cached on disk. If the API can't be reached, the cached menu is announced
 with an explicit "may be out of date" caveat rather than silently announcing
