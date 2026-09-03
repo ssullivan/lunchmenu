@@ -1,0 +1,19 @@
+[Unit]
+Description=Announce today's school lunch menu
+# No Documentation= line -- unlike the old @PREFIX@-rendered .in template,
+# this unit doesn't know where (or whether) the repo was cloned, so there's
+# no reliable path to point at; see the project README instead.
+#
+# Catches a crash that never reaches run-announce.sh's own exit path (e.g.
+# the interpreter itself failing to start) -- run-announce.sh's own notify
+# call (see NOTIFY in that script) already covers every failure that does
+# reach it, so this is a backstop, not a duplicate.
+OnFailure=lunch-announce-failure.service
+
+[Service]
+Type=oneshot
+# %h (systemd's own home-directory specifier) needs no install-time
+# rendering, unlike the old @PREFIX@-substituted .in template this replaces
+# -- lunchmenu-run is installed to a fixed path under $HOME regardless of
+# where (or whether) this repo is cloned.
+ExecStart=%h/.local/bin/lunchmenu-run

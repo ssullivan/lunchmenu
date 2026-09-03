@@ -1,0 +1,14 @@
+[Unit]
+Description=School lunch menu web page (couch/TV view)
+# No Documentation= line -- see lunch-announce.service for why.
+
+[Service]
+Type=simple
+# %h (systemd's own home-directory specifier) needs no install-time
+# rendering, unlike the old @PREFIX@-substituted .in template this replaces.
+ExecStart=%h/.local/bin/lunchmenu-serve
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=default.target

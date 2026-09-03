@@ -1,0 +1,14 @@
+[Unit]
+Description=Weekday 7am lunch menu announcement
+
+[Timer]
+# Host system timezone is UTC; the school is Eastern. Pin the calendar spec
+# to America/New_York so this stays 07:00 local across the EDT/EST shift
+# instead of drifting to 03:00 (or a hardcoded 11:00 breaking in November).
+OnCalendar=Mon..Fri 07:00 America/New_York
+# A missed 7am announcement is stale by the time the box wakes -- do not
+# catch up with a late run.
+Persistent=false
+
+[Install]
+WantedBy=timers.target

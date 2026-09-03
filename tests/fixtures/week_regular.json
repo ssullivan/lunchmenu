@@ -1,0 +1,4162 @@
+{
+  "AcademicCalendars": [],
+  "FamilyMenuSessions": [
+    {
+      "MenuPlans": [
+        {
+          "AcademicCalenderId": "00000000-0000-0000-0000-000000000000",
+          "Days": [
+            {
+              "Date": "8/31/2026",
+              "MenuMeals": [
+                {
+                  "MenuMealId": "00000000-0000-0000-0000-000000000000",
+                  "MenuMealName": "Week 2 Day 1",
+                  "MenuPlanName": "Elementary Breakfast 26-27 Menu",
+                  "RecipeCategories": [
+                    {
+                      "CategoryName": "Main Entree",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 172.398,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "P-3008",
+                          "RecipeName": "Golden Grahams Bowl Breakfast Pack",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Pack"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "Fruit",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 96.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "RC-2010",
+                          "RecipeName": "Fresh Orange",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1 each"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "Milk",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "R-2002",
+                          "RecipeName": "Milk, 1%, White",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Carton"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "R-2001",
+                          "RecipeName": "Milk, Skim",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Carton"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Date": "9/1/2026",
+              "MenuMeals": [
+                {
+                  "MenuMealId": "00000000-0000-0000-0000-000000000000",
+                  "MenuMealName": "Week 2 Day 2",
+                  "MenuPlanName": "Elementary Breakfast 26-27 Menu",
+                  "RecipeCategories": [
+                    {
+                      "CategoryName": "Main Entree",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 75.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "981",
+                          "RecipeName": "Mini Waffles Maple",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 172.398,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "P-3006",
+                          "RecipeName": "Cinnamon Toast Crunch Bowl Breakfast Pack",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Pack"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "Fruit",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 38.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "P-3014",
+                          "RecipeName": "Raisins, Seedless, Box",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 96.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "RC-2010",
+                          "RecipeName": "Fresh Orange",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1 each"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "Milk",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "R-2002",
+                          "RecipeName": "Milk, 1%, White",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Carton"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "R-2001",
+                          "RecipeName": "Milk, Skim",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Carton"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Date": "9/2/2026",
+              "MenuMeals": [
+                {
+                  "MenuMealId": "00000000-0000-0000-0000-000000000000",
+                  "MenuMealName": "Week 2 Day 3",
+                  "MenuPlanName": "Elementary Breakfast 26-27 Menu",
+                  "RecipeCategories": [
+                    {
+                      "CategoryName": "Main Entree",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 184.398,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "P-3005",
+                          "RecipeName": "Cheerios Bar Breakfast Pack",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Pack"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "Fruit",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 96.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "RC-2010",
+                          "RecipeName": "Fresh Orange",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1 each"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "Milk",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "R-2002",
+                          "RecipeName": "Milk, 1%, White",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Carton"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "R-2001",
+                          "RecipeName": "Milk, Skim",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Carton"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Date": "9/3/2026",
+              "MenuMeals": [
+                {
+                  "MenuMealId": "00000000-0000-0000-0000-000000000000",
+                  "MenuMealName": "Week 2 Day 4",
+                  "MenuPlanName": "Elementary Breakfast 26-27 Menu",
+                  "RecipeCategories": [
+                    {
+                      "CategoryName": "Main Entree",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 69.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "979",
+                          "RecipeName": "Mini Bagels w/ Straw Cheese",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 172.398,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "P-3010",
+                          "RecipeName": "Honey Bunch of Oats Honey Crunch Bowl Breakfast Pack",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Pack"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "Fruit",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 53.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "RC-2004",
+                          "RecipeName": "Apple Slices",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 38.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "P-3014",
+                          "RecipeName": "Raisins, Seedless, Box",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "Milk",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "R-2002",
+                          "RecipeName": "Milk, 1%, White",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Carton"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "R-2001",
+                          "RecipeName": "Milk, Skim",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Carton"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Date": "9/4/2026",
+              "MenuMeals": [
+                {
+                  "MenuMealId": "00000000-0000-0000-0000-000000000000",
+                  "MenuMealName": "Week 2 Day 5",
+                  "MenuPlanName": "Elementary Breakfast 26-27 Menu",
+                  "RecipeCategories": [
+                    {
+                      "CategoryName": "Main Entree",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 172.7475,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "P-3015",
+                          "RecipeName": "Multigrain Cheerios Bowl Breakfast Pack",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Pack"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "Fruit",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 38.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "P-3014",
+                          "RecipeName": "Raisins, Seedless, Box",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "Milk",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "R-2002",
+                          "RecipeName": "Milk, 1%, White",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Carton"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "R-2001",
+                          "RecipeName": "Milk, Skim",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Carton"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "MenuPlanId": "00000000-0000-0000-0000-000000000000",
+          "MenuPlanName": "Elementary Breakfast 26-27 Menu"
+        }
+      ],
+      "ServingSession": "Breakfast",
+      "ServingSessionId": "00000000-0000-0000-0000-000000000000",
+      "ServingSessionKey": "QnJlYWtmYXN0"
+    },
+    {
+      "MenuPlans": [
+        {
+          "AcademicCalenderId": "00000000-0000-0000-0000-000000000000",
+          "Days": [
+            {
+              "Date": "8/31/2026",
+              "MenuMeals": [
+                {
+                  "MenuMealId": "00000000-0000-0000-0000-000000000000",
+                  "MenuMealName": "Week 2 Day 1",
+                  "MenuPlanName": "Elementary Lunch 26-27 Menu",
+                  "RecipeCategories": [
+                    {
+                      "CategoryName": "Main Entree",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 170.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "374",
+                          "RecipeName": "Macaroni & Cheese",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "6 Ounces"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 135.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "F-1010",
+                          "RecipeName": "Cheese Pizza",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Slice_"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 163.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "F-1017",
+                          "RecipeName": "Pepperoni Pizza",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Slice"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 232.46589999999998,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "REC-1025",
+                          "RecipeName": "Hummus & Pretzel Plate",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 96.2,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "REC-1009",
+                          "RecipeName": "Yogurt Plate Combo",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "Grain",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 15.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "1235",
+                          "RecipeName": "Dinner Roll, WG",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "Hot Vegetable",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 113.398,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "40",
+                          "RecipeName": "Steamed Peas",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1/2 Cup"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "Cold Vegetable",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 30.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "RC-2012",
+                          "RecipeName": "Spinach",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1 cup"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 60.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "RC-2013",
+                          "RecipeName": "Crunchy Cucumber",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1/2 Cup"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "Fruit",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 268.480625,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "REC-1007",
+                          "RecipeName": "Assorted Fruits",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1/2 Cup"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 96.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "RC-2010",
+                          "RecipeName": "Fresh Orange",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1 each"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "Milk",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "R-2003",
+                          "RecipeName": "Milk, Fat Free, Chocolate",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Carton"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "R-2002",
+                          "RecipeName": "Milk, 1%, White",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Carton"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "R-2001",
+                          "RecipeName": "Milk, Skim",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Carton"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Date": "9/1/2026",
+              "MenuMeals": [
+                {
+                  "MenuMealId": "00000000-0000-0000-0000-000000000000",
+                  "MenuMealName": "Week 2 Day 2",
+                  "MenuPlanName": "Elementary Lunch 26-27 Menu",
+                  "RecipeCategories": [
+                    {
+                      "CategoryName": "Main Entree",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 110.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "F-1038",
+                          "RecipeName": "New Orleans Chicken",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "#12 Scoop"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 92.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "FC-1009",
+                          "RecipeName": "Glazed Chicken Drumstick",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1 Each"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 139.21355,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "REC-1026",
+                          "RecipeName": "Vegetarian Burger on Bun",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Sandwich"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 96.2,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "REC-1009",
+                          "RecipeName": "Yogurt Plate Combo",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "Grain",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 15.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "1235",
+                          "RecipeName": "Dinner Roll, WG",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 200.11320000000003,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "REC-1004",
+                          "RecipeName": "Brown Rice",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1/2 Cup"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "Hot Vegetable",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 68.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "261",
+                          "RecipeName": "Steamed Carrots",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1/2 Cup"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "Cold Vegetable",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 75.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "RC-2002",
+                          "RecipeName": "Grape Tomatoes",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1/2 Cup"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "Fruit",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 268.480625,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "REC-1007",
+                          "RecipeName": "Assorted Fruits",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1/2 Cup"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 76.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "P-3014",
+                          "RecipeName": "Raisins, Seedless, Box",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "2 Each"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 96.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "RC-2010",
+                          "RecipeName": "Fresh Orange",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1 each"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "Milk",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "R-2003",
+                          "RecipeName": "Milk, Fat Free, Chocolate",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Carton"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "R-2002",
+                          "RecipeName": "Milk, 1%, White",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Carton"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "R-2001",
+                          "RecipeName": "Milk, Skim",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Carton"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Date": "9/2/2026",
+              "MenuMeals": [
+                {
+                  "MenuMealId": "00000000-0000-0000-0000-000000000000",
+                  "MenuMealName": "Week 2 Day 3",
+                  "MenuPlanName": "Elementary Lunch 26-27 Menu",
+                  "RecipeCategories": [
+                    {
+                      "CategoryName": "Main Entree",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 95.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "FPC-1005",
+                          "RecipeName": "Chicken Tenders",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "3 Each"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 135.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "F-1010",
+                          "RecipeName": "Cheese Pizza",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Slice_"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 163.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "F-1017",
+                          "RecipeName": "Pepperoni Pizza",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Slice"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 232.46589999999998,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "REC-1025",
+                          "RecipeName": "Hummus & Pretzel Plate",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 96.2,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "REC-1009",
+                          "RecipeName": "Yogurt Plate Combo",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "Grain",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 15.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "1235",
+                          "RecipeName": "Dinner Roll, WG",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "Hot Vegetable",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 71.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "745",
+                          "RecipeName": "Ore-Ida Tater Tots",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1/2 Cup"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "Cold Vegetable",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 75.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "RC-2006",
+                          "RecipeName": "Fresh Baby Carrots",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1/2 Cup(6 sticks)"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 60.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "RC-2013",
+                          "RecipeName": "Crunchy Cucumber",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1/2 Cup"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 75.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "RC-2002",
+                          "RecipeName": "Grape Tomatoes",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1/2 Cup"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "Fruit",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 268.480625,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "REC-1007",
+                          "RecipeName": "Assorted Fruits",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1/2 Cup"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 187.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "RC-2005",
+                          "RecipeName": "Apples, Fresh",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1 each"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "Milk",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "R-2003",
+                          "RecipeName": "Milk, Fat Free, Chocolate",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Carton"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "R-2002",
+                          "RecipeName": "Milk, 1%, White",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Carton"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "R-2001",
+                          "RecipeName": "Milk, Skim",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Carton"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Date": "9/3/2026",
+              "MenuMeals": [
+                {
+                  "MenuMealId": "00000000-0000-0000-0000-000000000000",
+                  "MenuMealName": "Week 2 Day 4",
+                  "MenuPlanName": "Elementary Lunch 26-27 Menu",
+                  "RecipeCategories": [
+                    {
+                      "CategoryName": "Main Entree",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 120.78637499999999,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "REC-1006",
+                          "RecipeName": "Hamburger on Bun",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Sandwich"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 134.786375,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "REC-1001",
+                          "RecipeName": "Cheeseburger",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Sandwich"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 183.37375,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "REC-1029",
+                          "RecipeName": "Chicken Ham & Cheese Wrap",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Wrap"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 108.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "F-1040",
+                          "RecipeName": "Sunrise Waffles WG",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "2 Each"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 96.2,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "REC-1009",
+                          "RecipeName": "Yogurt Plate Combo",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "Hot Vegetable",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 130.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "1129",
+                          "RecipeName": "Baked Beans",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1/2 Cup"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 113.398,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "424",
+                          "RecipeName": "Green Beans",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1/2 Cup"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "Cold Vegetable",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 47.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "RC-2008",
+                          "RecipeName": "Lettuce, Romaine",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1 cup"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "Fruit",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 268.480625,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "REC-1007",
+                          "RecipeName": "Assorted Fruits",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1/2 Cup"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "Milk",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "R-2003",
+                          "RecipeName": "Milk, Fat Free, Chocolate",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Carton"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "R-2002",
+                          "RecipeName": "Milk, 1%, White",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Carton"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "R-2001",
+                          "RecipeName": "Milk, Skim",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Carton"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Date": "9/4/2026",
+              "MenuMeals": [
+                {
+                  "MenuMealId": "00000000-0000-0000-0000-000000000000",
+                  "MenuMealName": "Week 2 Day 5",
+                  "MenuPlanName": "Elementary Lunch 26-27 Menu",
+                  "RecipeCategories": [
+                    {
+                      "CategoryName": "Main Entree",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 159.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "REC-1019",
+                          "RecipeName": "Fish Sandwich",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Sandwich"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 135.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "F-1010",
+                          "RecipeName": "Cheese Pizza",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Slice_"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 163.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "REC-1021",
+                          "RecipeName": "Pepperoni Pizza",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Slice"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 86.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "F-1009",
+                          "RecipeName": "Vegan Chicken Nuggets",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "4 each"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 96.2,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "REC-1009",
+                          "RecipeName": "Yogurt Plate Combo",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "Grain",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 15.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "1235",
+                          "RecipeName": "Dinner Roll, WG",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "Hot Vegetable",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 130.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "1129",
+                          "RecipeName": "Baked Beans",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1/2 Cup"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "Cold Vegetable",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 60.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "RC-2013",
+                          "RecipeName": "Crunchy Cucumber",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1/2 Cup"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "Fruit",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 268.480625,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "REC-1007",
+                          "RecipeName": "Assorted Fruits",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1/2 Cup"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "Milk",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "R-2003",
+                          "RecipeName": "Milk, Fat Free, Chocolate",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Carton"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "R-2002",
+                          "RecipeName": "Milk, 1%, White",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Carton"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "R-2001",
+                          "RecipeName": "Milk, Skim",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Carton"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "MenuPlanId": "00000000-0000-0000-0000-000000000000",
+          "MenuPlanName": "Elementary Lunch 26-27 Menu"
+        }
+      ],
+      "ServingSession": "Lunch",
+      "ServingSessionId": "00000000-0000-0000-0000-000000000000",
+      "ServingSessionKey": "THVuY2g="
+    },
+    {
+      "MenuPlans": [
+        {
+          "AcademicCalenderId": "00000000-0000-0000-0000-000000000000",
+          "Days": [
+            {
+              "Date": "8/31/2026",
+              "MenuMeals": [
+                {
+                  "MenuMealId": "00000000-0000-0000-0000-000000000000",
+                  "MenuMealName": "Week 1 Day 1",
+                  "MenuPlanName": "A La Carte 26-27 Elementary & Middle Schools Only",
+                  "RecipeCategories": [
+                    {
+                      "CategoryName": "Main Entree",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 69.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "984",
+                          "RecipeName": "Mini Bagels w/ Cinn Cheese",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 69.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "979",
+                          "RecipeName": "Mini Bagels w/ Straw Cheese",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 65.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "983",
+                          "RecipeName": "Mini Cinni",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "Fruit",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 124.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "PC-3002",
+                          "RecipeName": "Mixed Fruit",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1/2 Cup"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 124.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "PC-3003",
+                          "RecipeName": "Diced Pears",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1/2 Cup"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 127.57275,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "FC -1001",
+                          "RecipeName": "Strawberry Cup, Frozen",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 96.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "RC-2010",
+                          "RecipeName": "Fresh Orange",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1 each"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 127.57275,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "FC-1008",
+                          "RecipeName": "Frozen Berry Blast Cup",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 126.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "P-3013",
+                          "RecipeName": "Peaches",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1/2 Cup"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 125.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "FC-1003",
+                          "RecipeName": "Frozen Peaches",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "Milk",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "R-2002",
+                          "RecipeName": "Milk, 1%, White",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Carton"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "R-2003",
+                          "RecipeName": "Milk, Fat Free, Chocolate",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Carton"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "R-2001",
+                          "RecipeName": "Milk, Skim",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Carton"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "1193",
+                          "RecipeName": "Pearl Organic Soymilk",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "A-la-Carte",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 36.85435,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "F-1013",
+                          "RecipeName": "Sugar Cookie",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 39.972795,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "F-1015",
+                          "RecipeName": "Rice Krispie Treat Whole Grain",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 62.368900000000004,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "950",
+                          "RecipeName": "Pretzel, Soft WG",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": false,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "P-3029",
+                          "RecipeName": "Bottled Water 8 oz",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1 bottle"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 36.85435,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "F-1014",
+                          "RecipeName": "Double Chocolate Chip Cookie",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 124.73780000000001,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "FC-1004",
+                          "RecipeName": "Blue Raspberry Lemon Sidekick",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 124.73780000000001,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "FC-1005",
+                          "RecipeName": "Kiwi Strawberry Sidekick",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 124.73780000000001,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "F-1012",
+                          "RecipeName": "Sour Cherry Lemon Sidekick",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Date": "9/1/2026",
+              "MenuMeals": [
+                {
+                  "MenuMealId": "00000000-0000-0000-0000-000000000000",
+                  "MenuMealName": "Week 1 Day 1",
+                  "MenuPlanName": "A La Carte 26-27 Elementary & Middle Schools Only",
+                  "RecipeCategories": [
+                    {
+                      "CategoryName": "Main Entree",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 69.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "984",
+                          "RecipeName": "Mini Bagels w/ Cinn Cheese",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 69.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "979",
+                          "RecipeName": "Mini Bagels w/ Straw Cheese",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 65.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "983",
+                          "RecipeName": "Mini Cinni",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "Fruit",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 124.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "PC-3002",
+                          "RecipeName": "Mixed Fruit",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1/2 Cup"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 124.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "PC-3003",
+                          "RecipeName": "Diced Pears",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1/2 Cup"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 127.57275,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "FC -1001",
+                          "RecipeName": "Strawberry Cup, Frozen",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 96.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "RC-2010",
+                          "RecipeName": "Fresh Orange",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1 each"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 127.57275,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "FC-1008",
+                          "RecipeName": "Frozen Berry Blast Cup",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 126.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "P-3013",
+                          "RecipeName": "Peaches",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1/2 Cup"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 125.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "FC-1003",
+                          "RecipeName": "Frozen Peaches",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "Milk",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "R-2002",
+                          "RecipeName": "Milk, 1%, White",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Carton"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "R-2003",
+                          "RecipeName": "Milk, Fat Free, Chocolate",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Carton"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "R-2001",
+                          "RecipeName": "Milk, Skim",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Carton"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "1193",
+                          "RecipeName": "Pearl Organic Soymilk",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "A-la-Carte",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 36.85435,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "F-1013",
+                          "RecipeName": "Sugar Cookie",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 39.972795,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "F-1015",
+                          "RecipeName": "Rice Krispie Treat Whole Grain",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 62.368900000000004,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "950",
+                          "RecipeName": "Pretzel, Soft WG",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": false,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "P-3029",
+                          "RecipeName": "Bottled Water 8 oz",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1 bottle"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 36.85435,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "F-1014",
+                          "RecipeName": "Double Chocolate Chip Cookie",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 124.73780000000001,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "FC-1004",
+                          "RecipeName": "Blue Raspberry Lemon Sidekick",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 124.73780000000001,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "FC-1005",
+                          "RecipeName": "Kiwi Strawberry Sidekick",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 124.73780000000001,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "F-1012",
+                          "RecipeName": "Sour Cherry Lemon Sidekick",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Date": "9/2/2026",
+              "MenuMeals": [
+                {
+                  "MenuMealId": "00000000-0000-0000-0000-000000000000",
+                  "MenuMealName": "Week 1 Day 1",
+                  "MenuPlanName": "A La Carte 26-27 Elementary & Middle Schools Only",
+                  "RecipeCategories": [
+                    {
+                      "CategoryName": "Main Entree",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 69.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "984",
+                          "RecipeName": "Mini Bagels w/ Cinn Cheese",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 69.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "979",
+                          "RecipeName": "Mini Bagels w/ Straw Cheese",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 65.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "983",
+                          "RecipeName": "Mini Cinni",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "Fruit",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 124.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "PC-3002",
+                          "RecipeName": "Mixed Fruit",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1/2 Cup"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 124.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "PC-3003",
+                          "RecipeName": "Diced Pears",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1/2 Cup"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 127.57275,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "FC -1001",
+                          "RecipeName": "Strawberry Cup, Frozen",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 96.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "RC-2010",
+                          "RecipeName": "Fresh Orange",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1 each"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 127.57275,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "FC-1008",
+                          "RecipeName": "Frozen Berry Blast Cup",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 126.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "P-3013",
+                          "RecipeName": "Peaches",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1/2 Cup"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 125.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "FC-1003",
+                          "RecipeName": "Frozen Peaches",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "Milk",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "R-2002",
+                          "RecipeName": "Milk, 1%, White",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Carton"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "R-2003",
+                          "RecipeName": "Milk, Fat Free, Chocolate",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Carton"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "R-2001",
+                          "RecipeName": "Milk, Skim",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Carton"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "1193",
+                          "RecipeName": "Pearl Organic Soymilk",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "A-la-Carte",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 36.85435,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "F-1013",
+                          "RecipeName": "Sugar Cookie",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 39.972795,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "F-1015",
+                          "RecipeName": "Rice Krispie Treat Whole Grain",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 62.368900000000004,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "950",
+                          "RecipeName": "Pretzel, Soft WG",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": false,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "P-3029",
+                          "RecipeName": "Bottled Water 8 oz",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1 bottle"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 36.85435,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "F-1014",
+                          "RecipeName": "Double Chocolate Chip Cookie",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 124.73780000000001,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "FC-1004",
+                          "RecipeName": "Blue Raspberry Lemon Sidekick",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 124.73780000000001,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "FC-1005",
+                          "RecipeName": "Kiwi Strawberry Sidekick",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 124.73780000000001,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "F-1012",
+                          "RecipeName": "Sour Cherry Lemon Sidekick",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Date": "9/3/2026",
+              "MenuMeals": [
+                {
+                  "MenuMealId": "00000000-0000-0000-0000-000000000000",
+                  "MenuMealName": "Week 1 Day 1",
+                  "MenuPlanName": "A La Carte 26-27 Elementary & Middle Schools Only",
+                  "RecipeCategories": [
+                    {
+                      "CategoryName": "Main Entree",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 69.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "984",
+                          "RecipeName": "Mini Bagels w/ Cinn Cheese",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 69.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "979",
+                          "RecipeName": "Mini Bagels w/ Straw Cheese",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 65.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "983",
+                          "RecipeName": "Mini Cinni",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "Fruit",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 124.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "PC-3002",
+                          "RecipeName": "Mixed Fruit",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1/2 Cup"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 124.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "PC-3003",
+                          "RecipeName": "Diced Pears",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1/2 Cup"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 127.57275,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "FC -1001",
+                          "RecipeName": "Strawberry Cup, Frozen",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 96.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "RC-2010",
+                          "RecipeName": "Fresh Orange",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1 each"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 127.57275,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "FC-1008",
+                          "RecipeName": "Frozen Berry Blast Cup",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 126.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "P-3013",
+                          "RecipeName": "Peaches",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1/2 Cup"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 125.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "FC-1003",
+                          "RecipeName": "Frozen Peaches",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "Milk",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "R-2002",
+                          "RecipeName": "Milk, 1%, White",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Carton"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "R-2003",
+                          "RecipeName": "Milk, Fat Free, Chocolate",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Carton"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "R-2001",
+                          "RecipeName": "Milk, Skim",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Carton"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "1193",
+                          "RecipeName": "Pearl Organic Soymilk",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "A-la-Carte",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 36.85435,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "F-1013",
+                          "RecipeName": "Sugar Cookie",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 39.972795,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "F-1015",
+                          "RecipeName": "Rice Krispie Treat Whole Grain",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 62.368900000000004,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "950",
+                          "RecipeName": "Pretzel, Soft WG",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": false,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "P-3029",
+                          "RecipeName": "Bottled Water 8 oz",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1 bottle"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 36.85435,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "F-1014",
+                          "RecipeName": "Double Chocolate Chip Cookie",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 124.73780000000001,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "FC-1004",
+                          "RecipeName": "Blue Raspberry Lemon Sidekick",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 124.73780000000001,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "FC-1005",
+                          "RecipeName": "Kiwi Strawberry Sidekick",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 124.73780000000001,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "F-1012",
+                          "RecipeName": "Sour Cherry Lemon Sidekick",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Date": "9/4/2026",
+              "MenuMeals": [
+                {
+                  "MenuMealId": "00000000-0000-0000-0000-000000000000",
+                  "MenuMealName": "Week 1 Day 1",
+                  "MenuPlanName": "A La Carte 26-27 Elementary & Middle Schools Only",
+                  "RecipeCategories": [
+                    {
+                      "CategoryName": "Main Entree",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 69.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "984",
+                          "RecipeName": "Mini Bagels w/ Cinn Cheese",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 69.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "979",
+                          "RecipeName": "Mini Bagels w/ Straw Cheese",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 65.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "983",
+                          "RecipeName": "Mini Cinni",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "Fruit",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 124.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "PC-3002",
+                          "RecipeName": "Mixed Fruit",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1/2 Cup"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 124.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "PC-3003",
+                          "RecipeName": "Diced Pears",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1/2 Cup"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 127.57275,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "FC -1001",
+                          "RecipeName": "Strawberry Cup, Frozen",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 96.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "RC-2010",
+                          "RecipeName": "Fresh Orange",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1 each"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 127.57275,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "FC-1008",
+                          "RecipeName": "Frozen Berry Blast Cup",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 126.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "P-3013",
+                          "RecipeName": "Peaches",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1/2 Cup"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 125.0,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "FC-1003",
+                          "RecipeName": "Frozen Peaches",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "Milk",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "R-2002",
+                          "RecipeName": "Milk, 1%, White",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Carton"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "R-2003",
+                          "RecipeName": "Milk, Fat Free, Chocolate",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Carton"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "R-2001",
+                          "RecipeName": "Milk, Skim",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Carton"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "1193",
+                          "RecipeName": "Pearl Organic Soymilk",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        }
+                      ]
+                    },
+                    {
+                      "CategoryName": "A-la-Carte",
+                      "Color": "#000000",
+                      "Recipes": [
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 36.85435,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "F-1013",
+                          "RecipeName": "Sugar Cookie",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 39.972795,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "F-1015",
+                          "RecipeName": "Rice Krispie Treat Whole Grain",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 62.368900000000004,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "950",
+                          "RecipeName": "Pretzel, Soft WG",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 226.796,
+                          "HasNutrients": false,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "P-3029",
+                          "RecipeName": "Bottled Water 8 oz",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "1 bottle"
+                        },
+                        {
+                          "Allergens": [
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000",
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 36.85435,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "F-1014",
+                          "RecipeName": "Double Chocolate Chip Cookie",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 124.73780000000001,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "FC-1004",
+                          "RecipeName": "Blue Raspberry Lemon Sidekick",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 124.73780000000001,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "FC-1005",
+                          "RecipeName": "Kiwi Strawberry Sidekick",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        },
+                        {
+                          "Allergens": [],
+                          "DietaryRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "GramPerServing": 124.73780000000001,
+                          "HasNutrients": true,
+                          "ItemId": "00000000-0000-0000-0000-000000000000",
+                          "Nutrients": [],
+                          "RecipeIdentifier": "F-1012",
+                          "RecipeName": "Sour Cherry Lemon Sidekick",
+                          "ReligiousRestrictions": [
+                            "00000000-0000-0000-0000-000000000000"
+                          ],
+                          "ServingSize": "Each"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "MenuPlanId": "00000000-0000-0000-0000-000000000000",
+          "MenuPlanName": "A La Carte 26-27 Elementary & Middle Schools Only"
+        }
+      ],
+      "ServingSession": "Snack",
+      "ServingSessionId": "00000000-0000-0000-0000-000000000000",
+      "ServingSessionKey": "U25hY2s="
+    }
+  ]
+}

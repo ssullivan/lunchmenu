@@ -1,0 +1,22 @@
+# Local configuration and credentials -- never belong in a public repo.
+config.toml
+tvs.json
+webos-keys.json
+menu.json
+ident.json
+*.log
+.env
+
+# Python / tooling
+.venv/
+__pycache__/
+*.pyc
+.ruff_cache/
+.pytest_cache/
+dist/
+build/
+*.egg-info/
+
+# contrib/systemd/*.service and *.timer are committed directly -- they use
+# systemd's %h specifier for paths under $HOME, so they need no install-time
+# rendering and are no longer generated output.

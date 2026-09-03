@@ -1,0 +1,15 @@
+[Unit]
+Description=Notify that lunch-announce.service failed
+# No Documentation= line -- see lunch-announce.service for why.
+
+[Service]
+Type=oneshot
+# Referenced via lunch-announce.service's OnFailure= -- this only ever runs
+# when that unit itself failed (a crash before run-announce.sh reached its
+# own exit path), never on a normal per-step failure, which run-announce.sh
+# already reports on its own by calling lunchmenu-notify directly. A no-op
+# if [notify] isn't configured, same as that call.
+#
+# %h (systemd's own home-directory specifier) needs no install-time
+# rendering, unlike the old @PREFIX@-substituted .in template this replaces.
+ExecStart=%h/.local/bin/lunchmenu-notify --subject "lunchmenu run failed" "lunchmenu: lunch-announce.service failed to run at all -- see: systemctl --user status lunch-announce.service"

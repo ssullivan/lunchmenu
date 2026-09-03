@@ -1,0 +1,92 @@
+# Example lunchmenu configuration. Copy this to config.toml (in the repo
+# root, gitignored) or ~/.config/lunchmenu/config.toml and fill in your own
+# values -- every value below is a placeholder, not a real school or a real
+# device on any network.
+#
+# Every key here can also be set as an environment variable named
+# LUNCHMENU_<SECTION>_<KEY> uppercased, e.g. LUNCHMENU_SPEAKER_DEVICE or
+# LUNCHMENU_WEB_PORT -- those always win over anything in a config.toml.
+# See config.py's module docstring for the full resolution order.
+
+[school]
+# The district slug from your school's public LINQ Connect menu URL, e.g.
+# the "ABCD12" in https://linqconnect.com/public/menu/ABCD12?buildingId=...
+identifier = "ABCD12"
+
+# district_id and building_id are GUIDs discovered by running:
+#   lunchmenu --list-buildings --identifier ABCD12
+# (or with a district_id already set: lunchmenu --list-buildings)
+district_id = "00000000-0000-0000-0000-000000000000"
+building_id = "00000000-0000-0000-0000-000000000000"
+
+# Display name used in spoken announcements, TV toasts, and the web page
+# title (e.g. "Announce today's lunch at Example Elementary").
+name = "Example Elementary"
+
+# IANA timezone the school itself is in -- NOT necessarily this host's
+# system timezone. Used to pin "today" so it doesn't roll over hours early
+# or late relative to the school. Defaults to America/New_York if unset.
+timezone = "America/New_York"
+
+[speaker]
+# Friendly (cast) name of the Google Cast / Chromecast device to announce
+# on. Find it with:
+#   lunchmenu-announce --list-devices
+device = "Kitchen speaker"
+
+# Volume (0.0-1.0) to set for the announcement; the speaker's prior volume
+# is restored afterward. Leave this key out entirely to leave the volume
+# alone instead of changing it.
+volume = 0.4
+
+# Which meal session to announce/toast by default: lunch, breakfast, snack,
+# or all.
+meal = "lunch"
+
+[web]
+# Port the menu web page (lunchmenu-serve) listens on, and the port
+# lunchmenu-webos uses when telling a TV browser where to find it -- one
+# shared key, both readers.
+port = 8090
+
+# Address lunchmenu-serve itself binds to. 0.0.0.0 (all interfaces) is
+# usually right; narrow it if this host has an interface you don't want the
+# page reachable from.
+bind_host = "0.0.0.0"
+
+# Address a TV's browser should use to reach this host -- may differ from
+# bind_host (e.g. a specific LAN IP or hostname rather than 0.0.0.0).
+# Example uses an RFC 5737 documentation address; replace with your host's
+# real LAN IP or hostname.
+public_host = "192.0.2.10"
+
+[tv]
+# Subnet lunchmenu-webos scans with --discover to find webOS TVs not yet
+# paired. Example uses an RFC 5737 documentation subnet; replace with your
+# LAN's actual subnet (also used to compute this subnet's broadcast address
+# for Wake-on-LAN).
+discover_subnet = "192.0.2.0/24"
+
+# Room name (as registered via `lunchmenu-webos --pair --host IP --name
+# "Room"`, see `lunchmenu-webos --list`) whose screen the 7am run takes over
+# to show the full menu page. Leave empty (or set SHOW_ROOM="" for
+# run-announce.sh) to skip that step entirely.
+show_room = "Living Room"
+
+# [notify]
+# Both keys below are independent and optional -- set either, both, or
+# neither. Leaving both unset (the default) means notify() is a silent
+# no-op: nothing is sent anywhere. Used by run-announce.sh and by
+# lunch-announce-failure.service (see contrib/systemd/) to tell you when
+# the 7am job fails, since an unattended job that breaks silently is one
+# you find out about weeks later.
+#
+# HTTP POST the message body to this URL -- works with ntfy.sh and most
+# webhook receivers.
+# ntfy_url = "https://ntfy.sh/your-private-topic"
+#
+# Shell-style command template; the literal text "{message}" is replaced
+# with the notification text as a single argv token (never interpolated
+# into a shell string) before running it -- safe even if the message
+# contains shell metacharacters.
+# command = "notify-send 'lunchmenu' {message}"

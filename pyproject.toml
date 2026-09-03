@@ -1,0 +1,42 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "lunchmenu"
+version = "0.1.0"
+description = "Fetch and announce a school lunch menu from LINQ Connect"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "gTTS>=2.5.4",
+    "pychromecast>=14.0.10",
+    "pywebostv>=0.8.9",
+]
+
+[project.scripts]
+lunchmenu = "lunchmenu.menu:main"
+lunchmenu-announce = "lunchmenu.announce:main"
+lunchmenu-webos = "lunchmenu.webos:main"
+lunchmenu-serve = "lunchmenu.serve:main"
+lunchmenu-notify = "lunchmenu.notify:main"
+lunchmenu-doctor = "lunchmenu.doctor:main"
+
+[dependency-groups]
+dev = [
+    "pytest",
+    "ruff",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/lunchmenu"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "N", "UP", "B", "SIM", "RUF"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
