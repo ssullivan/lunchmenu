@@ -297,6 +297,8 @@ lunchmenu-announce --dry-run          # print the sentence, cast nothing
 lunchmenu-webos --list
 lunchmenu-webos --toast                        # toast every paired TV
 lunchmenu-webos --toast --room "Living Room"
+lunchmenu-webos --toast --message "Bus is running late"   # custom text, no menu fetch
+echo "build failed" | lunchmenu-webos --toast --message -  # read the message from stdin
 lunchmenu-webos --show --room "Living Room" --wake
 lunchmenu-webos --discover
 
@@ -310,6 +312,17 @@ lunchmenu-doctor
 `--dry-run` works on `--toast`, `--show`, and `lunchmenu-announce`: it prints
 exactly what would be sent and touches no network and no device. Use it freely
 — the real commands interrupt whoever is in the room.
+
+`--toast --message TEXT` sends that exact text instead of the generated menu
+— useful for a cron job, CI step, or anything else that wants to put an
+arbitrary line on the TVs. It never fetches the menu (so it works even if the
+school API is down) and is only valid alongside `--toast`; `-m`/`--room`/etc.
+still target TVs the same way. `--message -` reads the text from stdin
+instead of argv, which is the point of the `echo | lunchmenu-webos` form
+above. A message over 180 characters (`TOAST_MAX_CHARS`) is truncated to fit
+with a trailing `…`, and a warning is printed to stderr saying so — it is
+never silently cut. An empty or whitespace-only message is rejected as an
+error rather than sent as a blank toast.
 
 `run-announce.sh` is the wrapper the scheduler runs. It performs all three
 announcements, appends timestamped output to `announce.log` in the state
@@ -325,7 +338,11 @@ For `--toast` and `--show`, if you don't pass an explicit date and it's past 2pm
 in the school's timezone, the default rolls forward to the next school day —
 skipping weekends and any day the API reports as closed — and says "tomorrow" or
 the weekday name instead of "today." Nobody wants to be told what lunch *was*.
-Pass an explicit date to override.
+
+Pass an explicit **calendar** date to override it — `lunchmenu-webos --show
+2026-09-03`. The literal word `today` does *not* override it, because that's
+also the default when you pass nothing at all, and the two are
+indistinguishable on the command line.
 
 ---
 

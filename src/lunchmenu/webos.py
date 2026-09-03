@@ -347,6 +347,74 @@ def _list_with_more(items: list[str], max_items: int, budget: int) -> str:
 
 
 # --------------------------------------------------------------------------
+# Custom toast text (--toast --message) -- arbitrary text, no menu fetch at
+# all. Kept separate from build_toast_text above: that one is menu-shaped
+# (fetches the week, understands categories/notes/staleness); this one is
+# just "take the string the operator gave and make it toast-safe."
+# --------------------------------------------------------------------------
+
+# Appended when a custom message is truncated to fit TOAST_MAX_CHARS. Sized
+# into the cut (see _cap_custom_message) so the final string is still
+# <= TOAST_MAX_CHARS, never TOAST_MAX_CHARS + len(this).
+CUSTOM_TOAST_ELLIPSIS = "…"
+
+
+def _cap_custom_message(text: str) -> str:
+    """Truncate arbitrary text to TOAST_MAX_CHARS with a trailing ellipsis
+    that fits *within* the cap, warning on stderr about the cut rather than
+    silently shortening what someone asked to display.
+
+    Deliberately simpler than build_toast_text's item-aware truncation
+    (MAX_ENTREE_ITEMS/ENTREE_CHAR_BUDGET/SIDE_CHAR_BUDGET/STALE_TOAST_MARKER)
+    -- those are shaped around menu categories and don't mean anything for
+    arbitrary text, so this doesn't reuse them.
+    """
+    if len(text) <= TOAST_MAX_CHARS:
+        return text
+    original_len = len(text)
+    cut_to = TOAST_MAX_CHARS - len(CUSTOM_TOAST_ELLIPSIS)
+    truncated = text[:cut_to] + CUSTOM_TOAST_ELLIPSIS
+    log(
+        f"--message is {original_len} characters, over the {TOAST_MAX_CHARS}-char "
+        f"toast cap -- truncated by {original_len - len(truncated)} character(s)"
+    )
+    return truncated
+
+
+def prepare_custom_message(raw: str) -> str:
+    """Resolve --message's raw CLI value into toast-ready text, WITHOUT
+    fetching anything -- no menu.get, no fetch_week, no district/building
+    lookup. That's the whole point: a custom toast must work even with the
+    school API completely unreachable.
+
+    '-' means read the message from stdin instead of argv, so this is usable
+    from a cron job, CI step, or any other script piping text in, not only a
+    literal argv string.
+
+    Only a single trailing newline is stripped (the one a shell `echo` or a
+    text editor's save typically leaves) -- interior newlines are collapsed
+    to a single space rather than preserved: pywebostv's
+    SystemControl.notify() (see _send_toast) forwards the string as-is into
+    the toast's JSON "message" field with no line-handling of its own, and
+    webOS's toast UI is not documented to render multi-line text -- every
+    other toast built in this file (build_toast_text) is a single line by
+    construction, so a custom message is normalized the same way for
+    predictable on-screen rendering.
+
+    Raises ValueError if the result is empty or whitespace-only -- an
+    accidentally blank message is a mistake to report, not an empty toast to
+    send.
+    """
+    text = sys.stdin.read() if raw == "-" else raw
+    if text.endswith("\n"):
+        text = text[:-1]
+    text = text.replace("\n", " ")
+    if not text.strip():
+        raise ValueError("--message is empty (or whitespace-only) -- nothing to send")
+    return _cap_custom_message(text)
+
+
+# --------------------------------------------------------------------------
 # webOS wire calls -- each opens its own short-lived connection
 # --------------------------------------------------------------------------
 
@@ -908,8 +976,16 @@ def cmd_toast(args) -> int:
     keys = load_keys()
     targets = resolve_targets(args.host, args.room, registry, keys)
 
-    day, when = resolve_effective_day(args.date, args.district, args.building)
-    text = build_toast_text(day, when, args.meal, args.district, args.building)
+    if args.message is not None:
+        # Custom text: no menu fetch, no district/building involved at all.
+        try:
+            text = prepare_custom_message(args.message)
+        except ValueError as exc:
+            log(str(exc))
+            return 1
+    else:
+        day, when = resolve_effective_day(args.date, args.district, args.building)
+        text = build_toast_text(day, when, args.meal, args.district, args.building)
 
     if args.dry_run:
         who = list(targets.values()) or "(none)"
@@ -1063,6 +1139,14 @@ def main() -> int:
     ap.add_argument(
         "--dry-run", action="store_true", help="print what would be sent; touch no network"
     )
+    ap.add_argument(
+        "--message",
+        metavar="TEXT",
+        help="(--toast only) send this exact text instead of the generated "
+        "menu -- no menu fetch happens at all. Pass '-' to read the message "
+        f"from stdin. Over {TOAST_MAX_CHARS} characters is truncated with a "
+        "warning; empty/whitespace-only text is an error.",
+    )
 
     group = ap.add_mutually_exclusive_group(required=True)
     group.add_argument(
@@ -1078,6 +1162,9 @@ def main() -> int:
     )
 
     args = ap.parse_args()
+
+    if args.message is not None and not args.toast:
+        ap.error("--message can only be used with --toast")
 
     try:
         if args.pair:

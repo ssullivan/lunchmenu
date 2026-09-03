@@ -1,11 +1,15 @@
 """Tests for lunchmenu.webos: build_toast_text's char budget and truncation,
-and resolve_effective_day's today/rollover logic. No test here opens a
+resolve_effective_day's today/rollover logic, and the --toast --message
+custom-toast path (prepare_custom_message + cmd_toast). No test here opens a
 websocket, sends a toast, or launches a TV browser -- only the pure text/date
 logic is exercised."""
 
 from __future__ import annotations
 
+import argparse
 import datetime as dt
+import io
+import sys
 
 import pytest
 
@@ -147,3 +151,138 @@ def test_resolve_effective_day_explicit_date_is_never_second_guessed(freeze_date
     day, when = webos.resolve_effective_day("2026-09-07", "district", "building")
     assert day == dt.date(2026, 9, 7)
     assert when == "Monday"
+
+
+# ---------------------------------------------------------------------------
+# prepare_custom_message (--toast --message)
+# ---------------------------------------------------------------------------
+
+
+def test_prepare_custom_message_short_text_passes_through_unchanged():
+    assert webos.prepare_custom_message("Dinner's ready") == "Dinner's ready"
+
+
+def test_prepare_custom_message_strips_single_trailing_newline():
+    assert webos.prepare_custom_message("hello\n") == "hello"
+
+
+def test_prepare_custom_message_collapses_interior_newlines():
+    # webOS's toast UI isn't documented to render multi-line text and
+    # notify() forwards the string as-is -- see the comment on
+    # prepare_custom_message.
+    assert webos.prepare_custom_message("line one\nline two") == "line one line two"
+
+
+def test_prepare_custom_message_reads_stdin_for_dash(monkeypatch):
+    monkeypatch.setattr(sys, "stdin", io.StringIO("from stdin\n"))
+    assert webos.prepare_custom_message("-") == "from stdin"
+
+
+def test_prepare_custom_message_empty_is_error():
+    with pytest.raises(ValueError):
+        webos.prepare_custom_message("")
+
+
+def test_prepare_custom_message_whitespace_only_is_error():
+    with pytest.raises(ValueError):
+        webos.prepare_custom_message("   \t  ")
+
+
+def test_prepare_custom_message_over_cap_is_truncated_and_warns(capsys):
+    long_message = "x" * (webos.TOAST_MAX_CHARS + 220)
+    result = webos.prepare_custom_message(long_message)
+    assert len(result) <= webos.TOAST_MAX_CHARS
+    assert result.endswith(webos.CUSTOM_TOAST_ELLIPSIS)
+    err = capsys.readouterr().err
+    assert "truncated" in err
+
+
+# ---------------------------------------------------------------------------
+# cmd_toast --message: no menu fetch, existing --toast plumbing unaffected
+# ---------------------------------------------------------------------------
+
+
+def _refuse_to_fetch(*_args, **_kwargs):
+    raise AssertionError("a custom --message toast must never fetch the menu")
+
+
+def _toast_args(**overrides) -> argparse.Namespace:
+    defaults = dict(
+        date="today",
+        meal="lunch",
+        host=None,
+        room=None,
+        district="district",
+        building="building",
+        message=None,
+        dry_run=True,
+    )
+    defaults.update(overrides)
+    return argparse.Namespace(**defaults)
+
+
+def test_cmd_toast_message_never_fetches_the_menu(monkeypatch, capsys):
+    monkeypatch.setattr(menu_mod, "get", _refuse_to_fetch)
+    monkeypatch.setattr(menu_mod, "fetch_week", _refuse_to_fetch)
+
+    rc = webos.cmd_toast(_toast_args(message="Dinner's ready"))
+    assert rc == 0
+    assert "Dinner's ready" in capsys.readouterr().out
+
+
+def test_cmd_toast_message_dash_reads_stdin_and_still_skips_fetch(monkeypatch, capsys):
+    monkeypatch.setattr(menu_mod, "get", _refuse_to_fetch)
+    monkeypatch.setattr(menu_mod, "fetch_week", _refuse_to_fetch)
+    monkeypatch.setattr(sys, "stdin", io.StringIO("from stdin\n"))
+
+    rc = webos.cmd_toast(_toast_args(message="-"))
+    assert rc == 0
+    assert "from stdin" in capsys.readouterr().out
+
+
+def test_cmd_toast_message_over_cap_truncates_and_warns(monkeypatch, capsys):
+    monkeypatch.setattr(menu_mod, "get", _refuse_to_fetch)
+    monkeypatch.setattr(menu_mod, "fetch_week", _refuse_to_fetch)
+
+    rc = webos.cmd_toast(_toast_args(message="z" * 400))
+    assert rc == 0
+    captured = capsys.readouterr()
+    assert "truncated" in captured.err
+
+
+def test_cmd_toast_message_empty_is_an_error_not_an_empty_toast(monkeypatch, capsys):
+    monkeypatch.setattr(menu_mod, "get", _refuse_to_fetch)
+    monkeypatch.setattr(menu_mod, "fetch_week", _refuse_to_fetch)
+
+    rc = webos.cmd_toast(_toast_args(message="   "))
+    assert rc == 1
+    assert "empty" in capsys.readouterr().err.lower()
+
+
+def test_cmd_toast_without_message_is_unchanged(monkeypatch, capsys):
+    # Same fixture/expectations as test_build_toast_text_within_budget --
+    # confirms the no-argument --toast path is untouched by the --message
+    # plumbing added around it.
+    day = dt.date(2026, 9, 4)
+    payload = _make_payload(
+        day, {"Main Entree": ["Cheese Pizza"], "Hot Vegetable": ["Green Beans"]}
+    )
+    monkeypatch.setattr(menu_mod, "get", lambda path, **params: payload)
+    monkeypatch.setattr(webos, "resolve_effective_day", lambda *a, **kw: (day, "today"))
+
+    rc = webos.cmd_toast(_toast_args())
+    assert rc == 0
+    out = capsys.readouterr().out
+    assert "Example Elementary" in out
+
+
+def test_message_flag_rejected_outside_toast(monkeypatch, capsys):
+    # argparse-level failure, not a silently-ignored flag: --message only
+    # means something with --toast.
+    monkeypatch.setattr(
+        sys, "argv", ["lunchmenu-webos", "--show", "--message", "nope", "--dry-run"]
+    )
+    with pytest.raises(SystemExit) as exc_info:
+        webos.main()
+    assert exc_info.value.code == 2
+    assert "--message" in capsys.readouterr().err
