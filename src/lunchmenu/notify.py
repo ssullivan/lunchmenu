@@ -34,11 +34,15 @@ import urllib.request
 
 from . import config
 
-NTFY_URL = config.get("notify", "ntfy_url")
-COMMAND = config.get("notify", "command")
-
 # Short on purpose: this must never be the thing that hangs the 7am job.
 TIMEOUT = 10.0
+
+
+def _channels() -> tuple[str, str]:
+    """Read [notify]'s two keys at call time, not import time, so a config
+    change (or a test's config.reload()) is picked up without reimporting
+    this module. config.py caches its own parse, so this adds no extra I/O."""
+    return config.get("notify", "ntfy_url"), config.get("notify", "command")
 
 
 def notify(message: str, *, subject: str | None = None) -> bool:
@@ -49,11 +53,12 @@ def notify(message: str, *, subject: str | None = None) -> bool:
     least one channel reported success; False (including "nothing is
     configured") is not itself an error worth acting on.
     """
+    ntfy_url, command = _channels()
     sent = False
-    if NTFY_URL:
-        sent = _notify_ntfy(NTFY_URL, message, subject) or sent
-    if COMMAND:
-        sent = _notify_command(COMMAND, message) or sent
+    if ntfy_url:
+        sent = _notify_ntfy(ntfy_url, message, subject) or sent
+    if command:
+        sent = _notify_command(command, message) or sent
     return sent
 
 
@@ -105,7 +110,8 @@ def main() -> int:
         print("notify: no message given (pass it as an argument or on stdin)", file=sys.stderr)
         return 1
 
-    if not (NTFY_URL or COMMAND):
+    ntfy_url, command = _channels()
+    if not (ntfy_url or command):
         print("notify: [notify] not configured -- no-op", file=sys.stderr)
         return 0
 

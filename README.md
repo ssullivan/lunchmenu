@@ -48,7 +48,9 @@ just install
 ```
 
 `just install` does three things: installs the commands into `~/.local/bin` (via
-`uv tool install --editable`, so edits in your clone take effect immediately),
+`uv tool install --editable`, so edits in your clone take effect immediately —
+except `run-announce.sh`, which is installed as a copy; see
+[Development](#development)),
 creates `~/.config/lunchmenu/` and seeds a `config.toml` there if you don't have
 one, and installs the systemd units. It does **not** enable or start anything —
 see [Scheduling](#scheduling-the-7am-announcement).
@@ -270,10 +272,16 @@ Unconfigured, notification is a no-op. In `command`, the literal token
 never interpolated into a shell string, so a message containing shell
 metacharacters is safe.
 
-Notifications fire from two places: `run-announce.sh` sends one when the run
-finishes with every step failed, and a `lunch-announce-failure.service` unit is
-wired to the main unit via `OnFailure=` to catch a crash that never reaches the
-script's own exit path. Test yours without waiting for a real failure:
+Notifications fire from two places: `run-announce.sh` sends one whenever *any*
+of the three steps (audio, toast, TV screen) fails, even if the run as a whole
+still counts as a success because another step worked — a routinely-powered-
+off TV shouldn't page you, but a step silently breaking while the others limp
+along should. (The run's own exit status is a separate, more lenient
+question — see the script's comments — so a partial failure is still alerted
+on even though it doesn't fail the systemd unit.) A
+`lunch-announce-failure.service` unit is also wired to the main unit via
+`OnFailure=` to catch a crash that never reaches the script's own exit path.
+Test yours without waiting for a real failure:
 
 ```bash
 lunchmenu-notify "test from lunchmenu"
@@ -536,6 +544,14 @@ just dry-run         # full rehearsal: no audio, no toast, no screen takeover
 
 `just install` uses `uv tool install --editable`, so your edits take effect in
 the installed commands immediately — no reinstall between changes.
+
+**The one exception is `run-announce.sh`.** The Justfile installs it with
+`install -m 755` as a standalone *copy* at `~/.local/bin/lunchmenu-run`, not as
+an editable console script, so edits to it are inert until you re-run `just
+install-bins`. This bites hardest when testing failure handling: you change the
+script, run `lunchmenu-run`, and watch the old copy behave exactly as it did
+before. If a change to `run-announce.sh` seems to have had no effect, check
+`diff ~/.local/bin/lunchmenu-run run-announce.sh` first.
 
 Tests run against recorded API payloads in `tests/fixtures/`, so they're
 offline, deterministic, and safe to run anywhere. Nothing in the suite casts

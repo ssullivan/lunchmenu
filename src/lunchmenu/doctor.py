@@ -23,10 +23,12 @@ from __future__ import annotations
 import argparse
 import contextlib
 import json as json_mod
+import shlex
 import shutil
 import subprocess
 import sys
 import urllib.error
+import urllib.parse
 import urllib.request
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -436,6 +438,37 @@ def check_cache() -> Check:
 
 
 # ---------------------------------------------------------------------------
+# 9. Notify
+# ---------------------------------------------------------------------------
+
+
+def check_notify() -> Check:
+    ntfy_url = config.get("notify", "ntfy_url")
+    command = config.get("notify", "command")
+    if not (ntfy_url or command):
+        return _check("notify", "WARN", "[notify] not configured -- failure alerts are off")
+
+    active = []
+    if ntfy_url:
+        parsed = urllib.parse.urlsplit(ntfy_url)
+        # Only scheme+host, NEVER the full URL -- for ntfy.sh (and similar
+        # webhook receivers) the topic path IS the bearer credential: anyone
+        # who knows it can post to (or, on some deployments, read) that
+        # topic. doctor output is exactly the kind of thing that ends up
+        # pasted into a bug report or a chat, so the topic must never appear
+        # here even though this check has it in hand via config.get().
+        host_only = f"{parsed.scheme}://{parsed.netloc}" if parsed.netloc else "(unparseable URL)"
+        active.append(f"ntfy ({host_only})")
+    if command:
+        try:
+            argv0 = shlex.split(command)[0]
+        except (ValueError, IndexError):
+            argv0 = "(unparseable command)"
+        active.append(f"command ({argv0})")
+    return _check("notify", "PASS", f"configured: {', '.join(active)}")
+
+
+# ---------------------------------------------------------------------------
 # Runner
 # ---------------------------------------------------------------------------
 
@@ -454,6 +487,7 @@ def run_all_checks() -> list[Check]:
     checks.extend(check_systemd())
     checks.extend(check_permissions())
     checks.append(check_cache())
+    checks.append(check_notify())
     return checks
 
 

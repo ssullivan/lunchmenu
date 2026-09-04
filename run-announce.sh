@@ -166,16 +166,46 @@ fi
         overall=1
     fi
 
-    # A failed run is exactly the case an unattended 7am job needs to be
-    # noticed without someone thinking to check announce.log -- notify.py
-    # is a no-op if [notify] isn't configured, and its own exit status is
-    # deliberately ignored here: a broken notifier must never turn a
-    # (correctly reported) failed run into something this script treats as
-    # more broken than it already is.
-    if [ "$overall" -ne 0 ]; then
-        echo "-- notifying failure --"
-        "$NOTIFY" --subject "lunchmenu run failed" \
-            "lunchmenu: all steps failed (audio=$audio_status toast=$toast_status show=$show_status). See $LOG."
+    # overall above stays exactly as lenient as its own comment says: a
+    # routinely-powered-off TV must never make the systemd timer show failed
+    # every morning, so overall only goes non-zero when EVERY step that ran
+    # failed. But that leniency is exactly what let the 2026-09-03 incident
+    # go unnoticed for a day -- toast was dead (exit 127) and the TV screen
+    # step was dead too (a real tv.show_room lookup failure, not a
+    # deliberate skip), while audio alone succeeded, so overall was 0 and the
+    # old overall-gated notify below never fired despite 2 of 3 steps being
+    # broken. So the notify trigger here is deliberately NOT gated on
+    # overall: it fires whenever ANY of the three steps failed, independent
+    # of whether the run as a whole counts as successful.
+    failed=()
+    ok=()
+    if [ "$audio_status" -eq 0 ]; then ok+=("audio"); else failed+=("audio=$audio_status"); fi
+    if [ "$toast_status" -eq 0 ]; then ok+=("toast"); else failed+=("toast=$toast_status"); fi
+    if [ "$show_status" -eq 0 ]; then ok+=("show"); else failed+=("show=$show_status"); fi
+
+    if [ "${#failed[@]}" -gt 0 ]; then
+        echo "-- notifying failure (${#failed[@]} of 3 steps failed) --"
+        if [ "${#failed[@]}" -eq 3 ]; then
+            subject="lunchmenu run failed"
+        else
+            subject="lunchmenu run partially failed"
+        fi
+        body="lunchmenu: ${#failed[@]} of 3 steps failed (${failed[*]}"
+        if [ "${#ok[@]}" -gt 0 ]; then
+            ok_list="${ok[0]}"
+            for step in "${ok[@]:1}"; do
+                ok_list="$ok_list, $step"
+            done
+            body="$body, $ok_list ok"
+        fi
+        body="$body). See $LOG."
+        # notify.py is a no-op if [notify] isn't configured, and its own
+        # exit status is deliberately ignored here (same invariant as
+        # before, just no longer gated on overall): a broken notifier must
+        # never turn an already-detected failure into something this script
+        # treats as more broken than it already is, and must never be the
+        # reason an alert that was just attempted doesn't go out.
+        "$NOTIFY" --subject "$subject" "$body"
     fi
 
     echo "overall exit status: $overall (audio=$audio_status toast=$toast_status show=$show_status)"
