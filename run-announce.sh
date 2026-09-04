@@ -5,10 +5,11 @@
 # standalone shim at ~/.local/bin/lunchmenu-run (see the Justfile's
 # install-bins recipe) -- it is no longer read out of a repo clone, so it
 # resolves the other lunchmenu commands from $PATH rather than from its own
-# location. A systemd user unit's $PATH normally includes ~/.local/bin (see
-# lunch-announce.service's ExecStart, which invokes this same shim by name),
-# but if these are missing here they're missing for real -- fail with a
-# clear message rather than a bare "command not found".
+# location. lunch-announce.service sets Environment=PATH= explicitly for
+# this reason, precisely because a systemd user manager's $PATH often does
+# not include ~/.local/bin on its own -- but if these are missing here
+# they're missing for real -- fail with a clear message rather than a bare
+# "command not found".
 #
 # Override device/volume/meal/show-room via env vars (e.g. in the systemd
 # unit's Environment= or a crontab line); each falls back to config.toml's

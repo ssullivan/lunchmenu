@@ -17,3 +17,9 @@ Type=oneshot
 # -- lunchmenu-run is installed to a fixed path under $HOME regardless of
 # where (or whether) this repo is cloned.
 ExecStart=%h/.local/bin/lunchmenu-run
+# A systemd user manager does not necessarily put ~/.local/bin on $PATH --
+# ExecStart above works regardless, since it's an absolute path, but
+# lunchmenu-run itself resolves lunchmenu-announce / lunchmenu-webos /
+# lunchmenu-notify via $PATH and would otherwise fail with "missing on
+# $PATH". Set it explicitly here so those sibling commands resolve too.
+Environment=PATH=%h/.local/bin:/usr/local/bin:/usr/bin:/bin

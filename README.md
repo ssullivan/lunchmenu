@@ -367,6 +367,10 @@ systemctl --user enable --now lunchmenu-web.service    # the always-on page
 
 The units reference `%h/.local/bin/...`, so they don't depend on where your
 clone lives — you can move or rename the repo without breaking the timer.
+`lunch-announce.service` also sets `Environment=PATH=%h/.local/bin:...`
+explicitly: a systemd **user** manager's default `$PATH` often does *not*
+include `~/.local/bin`, even though `ExecStart`'s absolute path starts fine
+either way — see the Troubleshooting entry below.
 
 Enable lingering so the timer fires when nobody is logged in:
 
@@ -460,6 +464,16 @@ directly with `lunchmenu-webos --toast --message "test" --room "..."`.
 is cached on disk. If the API can't be reached, the cached menu is announced
 with an explicit "may be out of date" caveat rather than silently announcing
 nothing.
+
+**`journalctl --user -u lunch-announce.service` shows `lunchmenu-run: missing
+on $PATH: lunchmenu-announce lunchmenu-webos lunchmenu-notify`.** The unit's
+`ExecStart` is an absolute path (`%h/.local/bin/lunchmenu-run`), so the shim
+itself starts fine even when `~/.local/bin` isn't on `$PATH` — but the shim
+then resolves its three sibling commands *via* `$PATH`, and a systemd user
+manager's default `$PATH` frequently doesn't include `~/.local/bin`. Fixed by
+the `Environment=PATH=%h/.local/bin:...` line the unit now ships. If you're
+seeing this on an older install, upgrade to a clone with that line, then
+re-run `just install-units` and `systemctl --user daemon-reload`.
 
 ---
 
